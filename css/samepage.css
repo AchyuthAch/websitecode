@@ -1,0 +1,33 @@
+
+.sm body {
+    margin: 0;
+}
+
+.sm ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 20%;
+    overflow: auto;
+}
+
+.sm a{
+    display: block;
+    color: #000;
+    padding: 0px 0 0px 1px;
+    text-decoration: none;
+}
+
+.sm a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sm a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
